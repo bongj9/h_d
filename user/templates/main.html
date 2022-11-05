@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_active %}
+<div id='user_title' style="text-align:center; padding-top:50%;">
+<a id = 'username' ">{{user.username}}</a>님 안녕하세요.
+</div>
+<div id='btn_group'>
+    <input type="button" class ="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Edit profile" onclick="location.href='{% url "edit_user_info" %}'" />
+    <input type="button" class= "mdl-button mdl-js-button mdl-button--primary" value="Logout" onclick="location.href='{% url "logout" %}'" />
+</div>
+{% else %}
+<div id='btn_group' style="padding-top:60%;">
+<input type="button" class ="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Log in" onclick="location.href='{% url "login_page" %}'" />
+<input type="button" class ="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Sign up" onclick="location.href='{% url "join_page" %}'" />
+</div>
+{% endif %}
+
+{% endblock %}
