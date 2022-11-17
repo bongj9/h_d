@@ -6,10 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <title>회원가입</title>
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="../css/style.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
      <link href="signup.css" rel="stylesheet"> <!--rel 현재문서와 연결문서의 관계 표시-->
-     <script src="js/signup.js"></script>
+     <script src="../js/signup.js"></script>
  </head>
 
  <body>
@@ -23,11 +23,11 @@
 
 	<div class="full_width clear-both">
 		<header>
-			<h1><a href="main.html"><img src="img/top_logo.jpg"></a></h1>
-			<h2>category</h2>
+			<h1><a href="home.html"><img src="../img/top_logo.jpg"></a></h1>
+			<h2 style="font-size: 15px;">category</h2>
 			<nav>
 				<ul class="nav">
-					<li><a href="nav_list.html">책상</a></li>
+					<li><a href="nav_list.html">책장</a></li>
 					<li><a href="nav_list.html">소파</a></li>
 					<li><a href="nav_list.html">의자</a></li>
 					<li><a href="nav_list.html">화장대</a></li>
@@ -44,27 +44,26 @@
 		<div class="sub_page">
 			<!-- 회원가입 시작 -->
 			<div class="loginjoin_box">
-
 				<h2 style="text-align: center;">Sign Up</h2>
 
-                <div class="name"> <!--이름-->
+                <div class="name" id="login_padding"> <!--이름-->
                     <input id="name"  type="text" placeholder="이름을 입력해 주세요.">
                     <div id="nameError" class="error"></div>
                 </div>
-                <div class="email"> <!--이메일-->
+                <div class="email" id="login_padding"> <!--이메일-->
                     <input id="email" type="text" placeholder="이메일을 입력해 주세요.">
                     <div id="emailError" class="error"></div>
                 </div>
-                <div class="password"> <!--비밀번호-->
+                <div class="password" id="login_padding"> <!--비밀번호-->
                     <input id="password" type="password" placeholder="비밀번호를 입력해 주세요.">
                     <div id="passwordError" class="error"></div>
                 </div>
-                <div class="passwordCheck"> <!--비밀번호확인-->
+                <div class="passwordCheck" id="login_padding"> <!--비밀번호확인-->
                     <input id="passwordCheck" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
                     <div id="passwordCheckError" class="error"></div>
                 </div>
 
-                <p>전화번호를 입력해 주세요.</p>
+                <h5>전화번호를 입력해 주세요.</h5>
 
                 <div class="phone"> <!--전화번호-->
                     <input id="phone1" type="phonenumber" size="1" maxlength="3" oninput="changePhone1()"> -
@@ -79,7 +78,7 @@
                     <div id="timeLimit">03:00</div>
                     <button disabled id="completion" onclick="checkCompletion()">인증확인</button>
                 </div> -->
-                <div class="area"> <!-- 지역부분인데 근데 넣읊 필요가 있을까? -->
+                <!--<div class="area">
                     <select id="area">
                         <option selected disabled>지역을 선택하세요</option>
                         <option>서울특별시</option>
@@ -101,18 +100,17 @@
                         <option>제주특별자치도</option>
                     </select>
                     <div id="areaError" class="error"></div>
+			</div>-->
+                <a href="" onclick="" class="login_btn">회원가입</a>
 
-				<a href="" onclick="" class="login_btn">회원가입하기</a>
-			</div>
-		</div>
+            </div>
+        </div>
 	</div>
 
 	<footer class="full_width">
 		<address>
-			Hello, we are 'How Much', a site that compares the price of furniture.
+			<!--추가예정..-->
 		</address>
 	</footer>
-
-    </div>
  </body>
 </html>

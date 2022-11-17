@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f7ee32-1ec7-4cfe-82a6-b08ae6b57888" name="변경" comment="">
+    <list default="true" id="77f7ee32-1ec7-4cfe-82a6-b08ae6b57888" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/top_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/nav_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style-new.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style.css.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/top_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/product_detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/product_detail.js.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/signup.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/origin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/origin/nav_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/nav_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/origin/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/origin/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/product_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +53,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/algml/Desktop/h_d/h_d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/agu08/Desktop/assignment/3-2/capstone/real/h_d"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JavaScript Debug.search.html">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="search.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/search.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.search.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -46,8 +87,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667628454295</updated>
+      <workItem from="1668672125325" duration="299000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

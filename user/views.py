@@ -6,7 +6,7 @@ from .models import Profile
 
 # 메인 페이지
 def main_page(request):
-    return render(request, 'main.html', {})
+    return render(request, 'home.html', {})
 
 # 로그인 페이지
 def login_page(request):
