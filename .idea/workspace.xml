@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f7ee32-1ec7-4cfe-82a6-b08ae6b57888" name="변경" comment="변경">
+    <list default="true" id="77f7ee32-1ec7-4cfe-82a6-b08ae6b57888" name="변경" comment="전체적인 폼과 세부사항 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/nav_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/signup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style-new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/css/style.css.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/list_product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/main3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/img/top_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/product_detail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/product_detail.js.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/js/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/nav_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/nav_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/product_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/origin/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/origin/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +26,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/agu08/Desktop/assignment/3-2/capstone/real/h_d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/algml/Desktop/h_d&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JavaScript Debug.search.html">
+}</component>
+  <component name="RunManager">
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -71,13 +44,6 @@
     <configuration name="search.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/search.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.search.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +55,28 @@
       <updated>1667628454295</updated>
       <workItem from="1668672125325" duration="299000" />
     </task>
+    <task id="LOCAL-00001" summary="검색누르면 검색페이지로(그부분만 login, search, signup 변경)&#10;main_swiper.js 새로 만듬&#10;(그 전에는 메인과 상세페이지 슬라이드 작동 안함)&#10;상단 검색/로그인/회원가입 왼쪽으로 땡기기&#10;카테고리 사이 넓이 등 간격 조정&#10;전체적인 화면, 사진크기 키우고 사진 사이의 간격 줄임">
+      <created>1668934034240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668934034240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="전체적인 폼과 세부사항 변경">
+      <created>1668935703933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668935703933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="전체적인 폼과 세부사항 변경">
+      <created>1668936513979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668936513979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +92,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="검색누르면 검색페이지로(그부분만 login, search, signup 변경)&#10;main_swiper.js 새로 만듬&#10;(그 전에는 메인과 상세페이지 슬라이드 작동 안함)&#10;상단 검색/로그인/회원가입 왼쪽으로 땡기기&#10;카테고리 사이 넓이 등 간격 조정&#10;전체적인 화면, 사진크기 키우고 사진 사이의 간격 줄임" />
+    <MESSAGE value="전체적인 폼과 세부사항 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="전체적인 폼과 세부사항 변경" />
   </component>
 </project>
