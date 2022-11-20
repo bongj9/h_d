@@ -14,14 +14,15 @@
   <link rel="stylesheet" href="../css/style.css">
   <!-- 슬라이드 때문에 첨부 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-     <script>src="js/product_detail.js"</script>
 
  </head>
 
  <body>
 	<div class="top_fixed">
 		<div class="top_block full_width">
-			<input type="text" class="search"><input type="submit" value="검색">
+			<div class="search_location">
+				<input type="text" class="search"><input type="submit" value="검색" onclick="location.href='search.html'">
+			</div>
 			<a href="login.html" class="bt_login_join">로그인</a>
 			<a href="signup.html" class="bt_login_join">회원가입</a>
 		</div>
@@ -59,6 +60,8 @@
 			  <div class="swiper-button-prev"></div>
 			  <div class="swiper-pagination"></div>
 			</div>
+			
+			<div class="category_title">PRODUCT LIST</div>
 
 			<div class="product_list">
 				<a href="product_detail.html" class="product_img_price">
@@ -137,33 +140,13 @@
 
 	<footer class="full_width">
 		<address>
-			Hello, we are 'How Much', a site that compares the price of furniture.
+			미친 깃허브 죽인다
 		</address>
 	</footer>
 
 <!-- 슬라이드 위해서 적용하는 스크립트 : 페이지 맨 밑에 적용해야 함
-Swiper JS
+Swiper JS-->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-Initialize Swiper
-<script>
-  var swiper = new Swiper(".mySwiper", {
-	spaceBetween:0,
-	effect: "fade",
-	//centeredSlides: true,
-	autoplay: {
-	  delay: 2500,
-	  disableOnInteraction: false,
-	},
-	pagination: {
-	  el: ".swiper-pagination",
-	  clickable: true,
-	},
-	navigation: {
-	  nextEl: ".swiper-button-next",
-	  prevEl: ".swiper-button-prev",
-	},
-  });
-</script>-->
+<script src="../js/main_swiper.js"></script>
  </body>
 </html>
