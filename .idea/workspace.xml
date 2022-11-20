@@ -35,10 +35,17 @@
   }
 }</component>
   <component name="RunManager">
+  
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="nav_list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/nav_list.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="product_detail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/product_detail.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="search.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h_d/user/templates/origin/search.html" useBuiltInWebServerPort="true">
@@ -54,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667628454295</updated>
       <workItem from="1668672125325" duration="299000" />
+      <workItem from="1668693736446" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="검색누르면 검색페이지로(그부분만 login, search, signup 변경)&#10;main_swiper.js 새로 만듬&#10;(그 전에는 메인과 상세페이지 슬라이드 작동 안함)&#10;상단 검색/로그인/회원가입 왼쪽으로 땡기기&#10;카테고리 사이 넓이 등 간격 조정&#10;전체적인 화면, 사진크기 키우고 사진 사이의 간격 줄임">
       <created>1668934034240</created>
