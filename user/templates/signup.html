@@ -1,44 +1,44 @@
-
-<!DOCTYPE html>
+{% load static %}
+<!doctype html>
 <html lang="ko">
 
  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <title>회원가입</title>
-     <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-     <link href="signup.css" rel="stylesheet"> <!--rel 현재문서와 연결문서의 관계 표시-->
-     <script src="../js/signup.js"></script>
+     <!-- <link href="{% static 'css/signup.css' %}" rel="stylesheet"> rel 현재문서와 연결문서의 관계 표시 -->
+     <script src="{% static 'js/signup.js' %}"></script>
  </head>
 
  <body>
     <div class="top_fixed">
 	    <div class="top_block full_width">
 		    <div class="search_location">
-				<input type="text" class="search"><input type="submit" value="검색" onclick="location.href='search.html'">
+				<input type="text" class="search"><input type="submit" value="검색" onclick="location.href='{% url 'search_view' %}'">
 			</div>
-			<a href="login.html" class="bt_login_join">로그인</a>
-			<a href="signup.html" class="bt_login_join">회원가입</a>
+			<a href="{% url 'login_view' %}" class="bt_login_join">로그인</a>
+			<a href="{% url 'signup_view' %}" class="bt_login_join">회원가입</a>
         </div>
 	</div>
 
 	<div class="full_width clear-both">
 		<header>
-			<h1><a href="home.html"><img src="../img/top_logo.jpg"></a></h1>
+			<h1><a href="{% url 'home_view' %}"><img src="{% static 'img/top_logo.jpg' %}"></a></h1>
 			<h2 style="font-size: 15px;">category</h2>
 			<nav>
 				<ul class="nav">
-					<li><a href="nav_list.html">책장</a></li>
-					<li><a href="nav_list.html">소파</a></li>
-					<li><a href="nav_list.html">의자</a></li>
-					<li><a href="nav_list.html">화장대</a></li>
-					<li><a href="nav_list.html">옷장</a></li>
-					<li><a href="nav_list.html">서랍장</a></li>
-					<li><a href="nav_list.html">책장</a></li>
-					<li><a href="nav_list.html">행거</a></li>
-					<li><a href="nav_list.html">침대</a></li>
-					<li><a href="nav_list.html">소품류</a></li>
+					<li><a href="{% url 'nav_list_view' %}">책장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">소파</a></li>
+					<li><a href="{% url 'nav_list_view' %}">의자</a></li>
+					<li><a href="{% url 'nav_list_view' %}">화장대</a></li>
+					<li><a href="{% url 'nav_list_view' %}">옷장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">서랍장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">책장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">행거</a></li>
+					<li><a href="{% url 'nav_list_view' %}">침대</a></li>
+					<li><a href="{% url 'nav_list_view' %}">소품류</a></li>
 				</ul>
 			</nav>
 		</header>

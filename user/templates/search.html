@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="ko">
 <head>
@@ -8,9 +9,9 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="../css/search.css">
+  <link rel="stylesheet" href="{% static 'css/search.css' %}">
 </head>
 <body>
 
@@ -18,29 +19,29 @@
 		<div class="top_block full_width">
 <!--			<a href="search.html" class="bt_search_page">-->
            <div class="search_location">
-				<input type="text" class="search"><input type="submit" value="검색" onclick="location.href='search.html'">
+				<input type="text" class="search"><input type="submit" value="검색" onclick="location.href='{% url 'search_view' %}'">
 			</div>
 <!--            </a>-->
-			<a href="login.html" class="bt_login_join">로그인</a>
-			<a href="signup.html" class="bt_login_join">회원가입</a>
+			<a href="{% url 'login_view' %}" class="bt_login_join">로그인</a>
+			<a href="{% url 'signup_view' %}" class="bt_login_join">회원가입</a>
 		</div>
 	</div>
     <div class="full_width clear-both">
 		<header>
-			<h1><a href="home.html"><img src="../img/top_logo.jpg"></a></h1>
+			<h1><a href="{% url 'home_view' %}"><img src="{% static 'img/top_logo.jpg' %}"></a></h1>
 			<h2 style="font-size: 15px;">category</h2>
 			<nav>
 				<ul class="nav">
-					<li><a href="nav_list.html">책상</a></li>
-					<li><a href="nav_list.html">소파</a></li>
-					<li><a href="nav_list.html">의자</a></li>
-					<li><a href="nav_list.html">화장대</a></li>
-					<li><a href="nav_list.html">옷장</a></li>
-					<li><a href="nav_list.html">서랍장</a></li>
-					<li><a href="nav_list.html">책장</a></li>
-					<li><a href="nav_list.html">행거</a></li>
-					<li><a href="nav_list.html">침대</a></li>
-					<li><a href="nav_list.html">소품류</a></li>
+					<li><a href="{% url 'nav_list_view' %}">책상</a></li>
+					<li><a href="{% url 'nav_list_view' %}">소파</a></li>
+					<li><a href="{% url 'nav_list_view' %}">의자</a></li>
+					<li><a href="{% url 'nav_list_view' %}">화장대</a></li>
+					<li><a href="{% url 'nav_list_view' %}">옷장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">서랍장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">책장</a></li>
+					<li><a href="{% url 'nav_list_view' %}">행거</a></li>
+					<li><a href="{% url 'nav_list_view' %}">침대</a></li>
+					<li><a href="{% url 'nav_list_view' %}">소품류</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -49,8 +50,8 @@
 
             <div class="search_products">
                 <div class="search_product">
-                <a href="product_detail.html" class="s_product">
-                <div class="search_img"><img src="../img/list_product01.jpg"></div>
+                <a href="{% url 'product_detail_view' %}" class="s_product">
+                <div class="search_img"><img src="{% static 'img/list_product01.jpg' %}"></div>
                 <ul class ="s_pricelink">
                     <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
                     <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
@@ -61,8 +62,8 @@
                 </a></div>
 
                 <div class="search_product">
-                <a href="product_detail.html" class="s_product">
-                <div class="search_img"><img src="../img/list_product02.jpg"></div>
+                <a href="{% url 'product_detail_view' %}" class="s_product">
+                <div class="search_img"><img src="{% static 'img/list_product02.jpg' %}"></div>
                 <ul class ="s_pricelink">
                     <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
                     <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
@@ -73,8 +74,8 @@
                 </a></div>
 
                 <div class="search_product">
-                <a href="product_detail.html" class="s_product">
-                <div class="search_img"><img src="../img/list_product03.jpg"></div>
+                <a href="{% url 'product_detail_view' %}" class="s_product">
+                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
                 <ul class ="s_pricelink">
                     <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
                     <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
@@ -85,8 +86,8 @@
                 </a></div>
 
                 <div class="search_product">
-                <a href="product_detail.html" class="s_product">
-                <div class="search_img"><img src="../img/list_product03.jpg"></div>
+                <a href="{% url 'product_detail_view' %}" class="s_product">
+                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
                 <ul class ="s_pricelink">
                     <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
                     <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
@@ -97,8 +98,8 @@
                 </a></div>
 
                 <div class="search_product">
-                <a href="origin/product_detail.html" class="s_product">
-                <div class="search_img"><img src="../img/list_product03.jpg"></div>
+                <a href="{% url 'product_detail_view' %}" class="s_product">
+                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
                 <ul class ="s_pricelink">
                     <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
                     <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>

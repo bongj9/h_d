@@ -15,4 +15,3 @@
 	  prevEl: ".swiper-button-prev",
 	},
   });
-  /* 이건 자바스크립트
