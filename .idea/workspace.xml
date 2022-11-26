@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6faf8b0-7329-47e2-9d91-ba8f7f59ca8d" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/h_d.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/h_d.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="f6faf8b0-7329-47e2-9d91-ba8f7f59ca8d" name="변경" comment="html django mapping">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/static/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/css/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/css/signup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/css/style-new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/css/style.css.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/edit_user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/list_product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/list_product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/list_product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/list_product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/main1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/main2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/main3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/slide5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/img/top_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/join_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/js/main_swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/js/product_detail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/js/product_detail.js.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/js/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/login_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/nav_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/product_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/origin/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +17,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I4JDH6NFPVCcSAbC3WoDfFYgeg" />
   <component name="ProjectViewState">
@@ -79,6 +41,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669434803245</updated>
     </task>
+    <task id="LOCAL-00001" summary="html django mapping">
+      <created>1669435695558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669435695558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +61,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html django mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="html django mapping" />
   </component>
 </project>
