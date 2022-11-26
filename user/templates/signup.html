@@ -49,19 +49,19 @@
 				<h2 style="text-align: center;">Sign Up</h2>
 
                 <div class="name" id="login_padding"> <!--이름-->
-                    <input id="name"  type="text" placeholder="이름을 입력해 주세요.">
+                    <input id="name"  type="text" style="font-size: 13px" placeholder="이름을 입력해 주세요.">
                     <div id="nameError" class="error"></div>
                 </div>
                 <div class="email" id="login_padding"> <!--이메일-->
-                    <input id="email" type="text" placeholder="이메일을 입력해 주세요.">
+                    <input id="email" type="text" style="font-size: 13px" placeholder="이메일을 입력해 주세요.">
                     <div id="emailError" class="error"></div>
                 </div>
                 <div class="password" id="login_padding"> <!--비밀번호-->
-                    <input id="password" type="password" placeholder="비밀번호를 입력해 주세요.">
+                    <input id="password" type="password" style="font-size: 13px" placeholder="비밀번호를 입력해 주세요.">
                     <div id="passwordError" class="error"></div>
                 </div>
                 <div class="passwordCheck" id="login_padding"> <!--비밀번호확인-->
-                    <input id="passwordCheck" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
+                    <input id="passwordCheck" type="password" style="font-size: 13px" placeholder="비밀번호를 다시 입력해 주세요.">
                     <div id="passwordCheckError" class="error"></div>
                 </div>
 
@@ -103,7 +103,10 @@
                     </select>
                     <div id="areaError" class="error"></div>
 			</div>-->
-                <a href="" onclick="" class="login_btn">회원가입</a>
+                <!--<a href="" onclick="" class="login_btn">회원가입</a>-->
+                <div class="signUp">
+                    <button id="signUpButton" class="login_btn" onclick="signUpCheck()">가입하기</button>
+                </div>
 
             </div>
         </div>
