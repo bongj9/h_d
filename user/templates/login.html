@@ -1,4 +1,5 @@
 {% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -49,26 +50,28 @@
 			<!-- 로그인 시작 -->
 			<div class="loginjoin_box">
 				<h2 style="text-align: center">login</h2>
+				<form method="POST">
+					{% csrf_token %}
+                	<div id="login_padding">
+                    	<input name="username" class="inputTypeText" style="font-size: 13px" placeholder="아이디를 입력해 주세요." value="" type="text">
+                	</div>
+                	<div id="login_padding">
+                    	<input name="password" type="password" style="font-size: 13px" placeholder="비밀번호를 입력해 주세요.">
+                	</div>
+<!--					<a href="" onclick="" class="login_btn">로그인</a>-->
+					<button type="submit" class="login_btn" >로그인하기</button>
 
-                <div id="login_padding">
-                    <input name="m_id" class="inputTypeText" style="font-size: 13px" placeholder="아이디를 입력해 주세요." value="" type="text">
-                </div>
-                <div id="login_padding">
-                    <input name="m_pwd" type="password" style="font-size: 13px" placeholder="비밀번호를 입력해 주세요.">
-                </div>
-
-				<a href="" onclick="" class="login_btn">로그인</a>
+				</form>
 			</div>
 		</div>
 	</div>
 
 	<footer class="full_width">
 		<address>
-
-			<!-- 뭐 쓸지 정하기-->
+			Hello, we are 'How Much', a site that compares the price of furniture.
 		</address>
 	</footer>
-
-
  </body>
 </html>
+
+{% endblock %}

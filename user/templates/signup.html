@@ -1,5 +1,6 @@
 {% load static %}
-<!doctype html>
+{% block content %}
+<!Doctype html>
 <html lang="ko">
 
  <head>
@@ -48,30 +49,32 @@
 			<div class="loginjoin_box">
 				<h2 style="text-align: center;">Sign Up</h2>
 
-                <div class="name" id="login_padding"> <!--이름-->
-                    <input id="name"  type="text" style="font-size: 13px" placeholder="이름을 입력해 주세요.">
-                    <div id="nameError" class="error"></div>
-                </div>
-                <div class="email" id="login_padding"> <!--이메일-->
-                    <input id="email" type="text" style="font-size: 13px" placeholder="이메일을 입력해 주세요.">
-                    <div id="emailError" class="error"></div>
-                </div>
-                <div class="password" id="login_padding"> <!--비밀번호-->
-                    <input id="password" type="password" style="font-size: 13px" placeholder="비밀번호를 입력해 주세요.">
-                    <div id="passwordError" class="error"></div>
-                </div>
-                <div class="passwordCheck" id="login_padding"> <!--비밀번호확인-->
-                    <input id="passwordCheck" type="password" style="font-size: 13px" placeholder="비밀번호를 다시 입력해 주세요.">
-                    <div id="passwordCheckError" class="error"></div>
-                </div>
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="name" id="login_padding"> <!--이름-->
+                        <input name="username"  type="text" style="font-size: 13px" placeholder="이름을 입력해 주세요.">
+                        <div id="nameError" class="error"></div>
+                    </div>
+                    <div class="email" id="login_padding"> <!--이메일-->
+                        <input name="email" type="text" style="font-size: 13px" placeholder="이메일을 입력해 주세요.">
+                        <div id="emailError" class="error"></div>
+                    </div>
+                    <div class="password" id="login_padding"> <!--비밀번호-->
+                        <input name="password1" type="password" style="font-size: 13px" placeholder="비밀번호를 입력해 주세요.">
+                        <div id="passwordError" class="error"></div>
+                    </div>
+                    <div class="passwordCheck" id="login_padding"> <!--비밀번호확인-->
+                        <input name="password2" type="password" style="font-size: 13px" placeholder="비밀번호를 다시 입력해 주세요.">
+                        <div id="passwordCheckError" class="error"></div>
+                    </div>
 
-                <h5>전화번호를 입력해 주세요.</h5>
+                    <h5>전화번호를 입력해 주세요.</h5>
 
-                <div class="phone"> <!--전화번호-->
-                    <input id="phone1" type="phonenumber" size="1" maxlength="3" oninput="changePhone1()"> -
-                    <input id="phone2" type="phonenumber" size="3" maxlength="4" oninput="changePhone2()"> -
-                    <input id="phone3" type="phonenumber" size="3" maxlength="4" oninput="changePhone3()">
-                </div>
+                    <div class="phone"> <!--전화번호-->
+                        <input id="phone1" type="phonenumber" size="1" maxlength="3" oninput="changePhone1()"> -
+                        <input id="phone2" type="phonenumber" size="3" maxlength="4" oninput="changePhone2()"> -
+                        <input id="phone3" type="phonenumber" size="3" maxlength="4" oninput="changePhone3()">
+                    </div>
                 <!--<div class="auth">
                     <div id="certificationNumber">000000</div>
                     <button disabled id="sendMessage" onclick="getToken()">인증번호 전송</button> 인증번호 버튼
@@ -104,10 +107,9 @@
                     <div id="areaError" class="error"></div>
 			</div>-->
                 <!--<a href="" onclick="" class="login_btn">회원가입</a>-->
-                <div class="signUp">
-                    <button id="signUpButton" class="login_btn" onclick="signUpCheck()">가입하기</button>
-                </div>
+                    <button type="submit" class="login_btn" >가입하기</button>
 
+                </form>
             </div>
         </div>
 	</div>
@@ -119,3 +121,5 @@
 	</footer>
  </body>
 </html>
+
+{% endblock %}
