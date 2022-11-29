@@ -1,3 +1,4 @@
+from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
@@ -8,11 +9,6 @@ from .models import Profile
 # 메인 페이지
 def home_view(request):
     return render(request, 'home.html')
-
-# 로그인 페이지
-def login_view(request):
-    # login_data = LoginForm()
-    return render(request, 'login.html')
 
 #책장 수납장 리스트 페이지
 def nav_list_view(request):
@@ -40,6 +36,28 @@ def signup_view(request):
             return redirect('/')
         return render(request, 'signup.html')
     return render(request, 'signup.html')
+
+#로그인 페이지
+# def login_view(request):
+#     # login_data = LoginForm()
+#     return render(request, 'login.html')
+def login_view(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            auth.login(request, user)
+            return redirect('board')
+        else:
+            return render(request, 'login.html', {'error': 'username or password is incorrect.'})
+    else:
+        return render(request, 'login.html')
+
+#로그아웃
+def logout(request):
+    auth.logout(request)
+    return redirect('home')
 
 # # 로그인 유효성 검사
 # def login_validate(request):
