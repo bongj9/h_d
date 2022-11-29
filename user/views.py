@@ -27,7 +27,18 @@ def search_view(request):
     return render(request, 'search.html')
 
 #회원가입 페이지
+# def signup_view(request):
+#     return render(request, 'signup.html')
 def signup_view(request):
+    if request.method == 'POST':
+        if request.POST['password1'] == request.POST['password2']:
+            user = User.objects.create_user(
+                                            username=request.POST['username'],
+                                            password=request.POST['password1'],
+                                            email=request.POST['email'],)
+            auth.login(request, user)
+            return redirect('/')
+        return render(request, 'signup.html')
     return render(request, 'signup.html')
 
 # # 로그인 유효성 검사
