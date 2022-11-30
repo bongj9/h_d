@@ -12,6 +12,31 @@
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="{% static 'css/search.css' %}">
+     <style>
+         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+         *{font-family: 'IBM Plex Sans KR';}
+          .search_result{ margin: 50px 0px 0px 10px;
+              font-size:18px;
+              border-bottom: solid 3px #eee; border-top:3px solid #eee;padding:3px;}
+          .search_input{ font-weight:bold; font-size:25px; text-decoration:underline;}
+
+          .search_product{float: left; padding: 25px; margin: 35px 0px 0px 55px; width: 90%;}
+          .s_img{ width:300px;height:300px; }
+
+          table {
+             width: 80%; border-top: 2px solid #eeee; border-bottom: 2px solid #eee;border-collapse: collapse;
+             padding: 30px;
+             font-size:20px;
+             text-align: center;
+          }
+          td ,th {
+             padding: 10px;
+          }
+          /*.p_nur td{*/
+          /*   border-bottom: 2px solid #444;}*/
+
+    </style>
+
 </head>
 <body>
 
@@ -47,68 +72,148 @@
 		</header>
         <main>
             <div class="search_result"><span class="search_input">책장</span> 검색한 결과 </div>
-
-            <div class="search_products">
-                <div class="search_product">
-                <a href="{% url 'product_detail_view' %}" class="s_product">
-                <div class="search_img"><img src="{% static 'img/list_product01.jpg' %}"></div>
-                <ul class ="s_pricelink">
-                    <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                </ul>
-                </a></div>
-
-                <div class="search_product">
-                <a href="{% url 'product_detail_view' %}" class="s_product">
-                <div class="search_img"><img src="{% static 'img/list_product02.jpg' %}"></div>
-                <ul class ="s_pricelink">
-                    <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                </ul>
-                </a></div>
-
-                <div class="search_product">
-                <a href="{% url 'product_detail_view' %}" class="s_product">
-                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
-                <ul class ="s_pricelink">
-                    <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                </ul>
-                </a></div>
-
-                <div class="search_product">
-                <a href="{% url 'product_detail_view' %}" class="s_product">
-                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
-                <ul class ="s_pricelink">
-                    <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                </ul>
-                </a></div>
-
-                <div class="search_product">
-                <a href="{% url 'product_detail_view' %}" class="s_product">
-                <div class="search_img"><img src="{% static 'img/list_product03.jpg' %}"></div>
-                <ul class ="s_pricelink">
-                    <li><span class="search_price">가격</span> <span class="search_link">(그 사이트마다 해놓은)제품명으로 보이고 누르면 사이트로</span> </li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                    <li><span class="search_price">가격</span> <span class="search_link">사이트링크</span></li>
-                </ul>
-                </a></div>
+            <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
             </div>
+            <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
+            </div>
+            <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
+             </div>
+           <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
+            </div>
+           <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
+            </div>
+           <div class="search_product">
+               <table class="search_table" >
+                  <tr>
+                     <td rowspan="6" class="s_img"><a href="{% url 'product_detail_view' %}" ><img src="{% static 'img/list_product01.jpg' %}" width="250"></a></td>
+                     <td class="p_nur" rowspan="2">new</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">used</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td class="p_nur" rowspan="2">rent</td><td>가격</td><td>사이트</td>
+                  </tr>
+                  <tr>
+                     <td>가격</td><td>사이트</td>
+                  </tr>
+               </table>
+            </div>
+
+
+
+
         </main>
     </div>
 
